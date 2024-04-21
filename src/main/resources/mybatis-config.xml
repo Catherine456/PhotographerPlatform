@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    &lt;!&ndash;引入jdbc.properties配置文件&ndash;&gt;-->
+<!--    <properties resource="jdbc.properties"/>-->
+
+<!--    <settings>-->
+
+<!--        &lt;!&ndash;配置运行的sql在控制台打印输出&ndash;&gt;-->
+<!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
+
+<!--        &lt;!&ndash;设置映射方式 autoMappingBehavior属性-->
+<!--                NONE：不自动进行映射-->
+<!--                PARTIAL：默认值，对没有嵌套结果集自动进行映射-->
+<!--                FILL：对所有结果集进行自动映射，一般情况下，如果有结果集我们也使用ReaultMap，所以FULL很少用-->
+<!--        &ndash;&gt;-->
+<!--        <setting name="autoMappingBehavior" value="PARTIAL"/>-->
+
+<!--        &lt;!&ndash;驼峰映射-->
+<!--                开启驼峰映射后：例如数据库字段中的nick_name，在PO中属性却是nickName也可以自动匹配上（mybatis会自动将下划线更改成驼峰类型）-->
+<!--        &ndash;&gt;-->
+<!--        <setting name="mapUnderscoreToCamelCase" value="true"/>-->
+<!--        &lt;!&ndash;定义别名&ndash;&gt;-->
+
+<!--        &lt;!&ndash;开启延迟加载的开关 默认是false &ndash;&gt;-->
+<!--        <setting name="lazyLoadingEnabled" value="true"/>-->
+
+<!--        &lt;!&ndash; &lt;!&ndash;发生延迟加载的时候， 是否完全加载  默认是 false (3.1.4版本之后)  一般不配置 用默认的就可以&ndash;&gt;-->
+<!--         <setting name="aggressiveLazyLoading" value="true"/>&ndash;&gt;-->
+
+<!--    </settings>-->
+<!--    &lt;!&ndash;设置别名&ndash;&gt;-->
+<!--    <typeAliases>-->
+<!--        <package name="com.photographerPlatform.pojo"/>-->
+<!--    </typeAliases>-->
+<!--&lt;!&ndash;    &lt;!&ndash;注入映射器&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;    <mappers>&ndash;&gt;-->
+<!--&lt;!&ndash;        &lt;!&ndash;映射器所在包&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <package name="com.photographerPlatform.mapper"/>&ndash;&gt;-->
+<!--&lt;!&ndash;    </mappers>&ndash;&gt;-->
+</configuration>

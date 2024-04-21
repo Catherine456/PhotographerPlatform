@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.photographerPlatform.mapper.PhotographerMapper">
+
+    <insert id="registerPho" parameterType="com.photographerPlatform.pojo.Photographer" useGeneratedKeys="true" keyProperty="id">
+        insert into test values (null,#{name},#{age})
+    </insert>
+<!--    <insert id="registerPho" parameterType="pho" useGeneratedKeys="true" keyProperty="id">-->
+<!--        insert into photographer values (1, #{account}, '', #{password}, '', '', '', '', '', '', '', '', '', '', '', '', '', '', null, '', '', , '', null);-->
+<!--    </insert>-->
+
+<!--    <select id="getList" resultType="user">-->
+<!--        select * from user-->
+<!--    </select>-->
+</mapper>
